@@ -1,6 +1,6 @@
-#ifndef delta_hpp
-#define delta_hpp
+#ifndef fdelta_hpp
+#define fdelta_hpp
 
-int delta(double a, double b, double c, double &delta);
+void fdelta(double a, double b, double c, double &delta);
 
 #endif

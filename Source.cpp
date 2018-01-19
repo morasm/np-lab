@@ -1,10 +1,10 @@
-#include <conio.h>
+
 #include <iostream>
-#include <math.h>
+#include <cmath>
 #include "azero.hpp"
 #include "bzero.hpp"
 #include "czero.hpp"
-#include "delta.hpp"
+#include "fdelta.hpp"
 
 using namespace std;
 
@@ -26,7 +26,7 @@ int main(){
 
 //obliczamy delte
 
-delta(a, b, c, delta);
+fdelta(a, b, c, delta);
 
 //sprawdzamy blad obliczen zmiennoprzecinkowych
 
@@ -34,8 +34,8 @@ if (abs(delta) < eps) {
 			delta = 0.0;
 		}
 
+cout << delta;
 
-
-	_getche();
+	//_getch();
 	return 0;
 }

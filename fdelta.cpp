@@ -1,8 +1,8 @@
-#include "delta.hpp"
+#include "fdelta.hpp"
 
-int delta(double a, double b, double c, double &delta){
+void fdelta(double a, double b, double c, double &delta){
 // tu wpisz kod funkcji
-
+delta = b*b - 4 * a*c;
 
 }
 
