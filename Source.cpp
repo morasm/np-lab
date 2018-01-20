@@ -34,8 +34,41 @@ if (abs(delta) < eps) {
 			delta = 0.0;
 		}
 
-cout << delta;
+//
+    if (a == 0) {
+		if (b == 0) {
+			if (c == 0) {
 
+			}
+			else {
+				;
+			}
+		}
+		else {
+			;
+		}
+	}
+	else {
+		if (delta < 0) {
+			x1 = (-b / 2 * a);
+			x2 = (sqrt(abs(delta)) / (2 * a));
+			info = 3;
+		}
+		else {
+			// jesli delta = 0
+			if (delta == 0) {
+				x1 = x2 = -b / (2. * a);
+				info = 4;
+			}
+			// jesli delta >0
+			else {
+				x1 = (-b - sqrt(delta)) / (2. * a);
+				x2 = (-b + sqrt(delta)) / (2. * a);
+				info = 5;
+
+			}
+		}
+	}
 	//_getch();
 	return 0;
 }
