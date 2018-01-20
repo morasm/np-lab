@@ -1,8 +1,7 @@
 #include "azero.hpp"
 
 int azero(double b, double c){
-// tu wpisz kod funkcji
-
+	x = ((-1)*c) / b;
 
 }
 
