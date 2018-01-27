@@ -1,6 +1,6 @@
 #ifndef czero_hpp
 #define czero_hpp
 
-int czero(double c);
+int czero(double a, double b);
 
 #endif
