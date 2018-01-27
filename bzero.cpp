@@ -1,8 +1,8 @@
 #include "bzero.hpp"
 
 int bzero(double b){
-// tu wpisz kod funkcji
-
+	x = ((-1)*c) / a;
+	return x; //komentarz
 
 }
 
