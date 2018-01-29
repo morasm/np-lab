@@ -34,8 +34,35 @@ if (abs(delta) < eps) {
 			delta = 0.0;
 		}
 
-cout << delta;
+//
+    if (a == 0) {
+		if (b == 0) {
+			if (c == 0) {
 
+			}
+			else {
+				;
+			}
+		}
+		else {
+			;
+		}
+	}
+	else {
+		if (delta < 0) {
+			;
+		}
+		else {
+			// jesli delta = 0
+			;
+			}
+			// jesli delta >0
+			else {
+				;
+
+			}
+		}
+	}
 	//_getch();
 	return 0;
 }
