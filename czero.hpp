@@ -2,5 +2,5 @@
 #define czero_hpp
 
 int czero(double a, double b);
-
+//Konflikt!
 #endif
