@@ -2,5 +2,6 @@
 
 int czero(double c){
  x = 0;
+//Konflikt!
 }
 
