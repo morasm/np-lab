@@ -2,5 +2,6 @@
 #define azero_hpp
 
 int azero(double b, double c);
+//konflikt!
 
 #endif
