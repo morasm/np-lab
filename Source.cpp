@@ -38,28 +38,32 @@ if (abs(delta) < eps) {
     if (a == 0) {
 		if (b == 0) {
 			if (c == 0) {
-
+                czero(c);
 			}
 			else {
-				;
+				bzero(b);
 			}
+
 		}
 		else {
-			;
+			azero(a);
 		}
 	}
 	else {
 		if (delta < 0) {
-			;
+			cout << "Istnieja rozwiazania zespolone";
 		}
 		else {
 			// jesli delta = 0
-			;
+			if (delta == 0){
+			x1 = -b / (2*a);
+
 			}
 			// jesli delta >0
 			else {
-				;
-
+				x1 = (-b - sqrt(delta))/(2*a);
+                x1 = (-b + sqrt(delta))/(2*a);
+                cout << "Rozwiazania: " << x1 << "oraz " << x2;
 			}
 		}
 	}
