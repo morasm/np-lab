@@ -4,5 +4,6 @@
 
 int czero(double c){
  x = 0;
+//wartosc x przekazano do main
 }
 
