@@ -3,9 +3,8 @@
 // obliczenia dla przypadku gdy c=0
 
 int czero(double c){
- x = 0;
-<<<<<<< HEAD
-//wartosc x przekazano do main
+ cout << "Nieskonczenie wiele rozwiazan";
+return 0;
 
 //Usunieto konflikt!
 
