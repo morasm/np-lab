@@ -7,5 +7,7 @@ int bzero(double b){
 	return x; //komentarz
 
 // wartosc z obliczne przekazano do main
+//Rozwiazano konflikt!
+
 }
 

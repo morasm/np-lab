@@ -6,6 +6,8 @@
 int azero(double b, double c){
 	x = ((-1)*c) / b;
 	return x;
+
 // obliczona wartosc x zwrocona do main
+
 }
 

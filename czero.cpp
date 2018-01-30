@@ -4,6 +4,10 @@
 
 int czero(double c){
  x = 0;
+<<<<<<< HEAD
 //wartosc x przekazano do main
+
+//Usunieto konflikt!
+
 }
 
