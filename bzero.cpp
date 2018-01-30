@@ -6,5 +6,6 @@ int bzero(double b){
 	x = ((-1)*c) / a;
 	return x; //komentarz
 
+// wartosc z obliczne przekazano do main
 }
 
